@@ -78,6 +78,6 @@ int main(int argc, char * argv[]){
 		waitpid(cpid, &status, 0);//wait for child to complete
 		printf("The maximum value in the array is : %d\n",WEXITSTATUS(status));
 	}
-	sleep(30);//So that xterm can be hold . . . for wrapper.c "code" .... as xterm is needed it is made to hold for 20 seconds
+	sleep(30);//So that xterm can be hold . . . for wrapper.c "code" .... as xterm is needed it is made to hold for 30 seconds
 	exit(0);
 }
