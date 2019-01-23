@@ -23,10 +23,30 @@ Write a separate C code  wrapper.c which opens an xterm with appropriate command
 /*
   For Part 2 xterm is used ... which is 'xTerminal Emulator'
   if Not already present in your machine (To check just xterm in terminal you'll get a pop up kind of window and if such things doesnt happen it simply means you dont have it installed on your machine)
-  FOllow Steps:
+  Follow Steps:<type these in terminal>
   1) sudo apt-get update -y
   2) sudo apt-get install -y xterm
+  
   NOTE:
   '-y' flag simpy means to install silently without asking questions in most cases.
 
+*/
+
+/*
+  Commands For Part1 Code:
+  (Type in terminal)
+  step 1)To Compile the code and generate object file of name 'parmax' :
+          gcc parmax.c -o parmax
+  step 2)To run the code :
+          ./parmax 50 //Any number you may pass ,AS THIS WILL CREATE AN ARRAY OF THAT SIZE AND POPULATE IT WITH RANDOM INTEGERS BETWEEN 0 to 127
+  
+  Commands For Part2 Code:
+  (Type in terminal)
+  step 1)To Compile the code and generate object file of name 'wrapper' :
+          gcc wrapper.c -o wrapper
+  step 2)To run the code :
+          ./wrapper 50 //Any number you may pass ,AS THIS WILL CREATE AN ARRAY OF THAT SIZE AND POPULATE IT WITH RANDOM INTEGERS BETWEEN 0 to 127 
+          
+  NOTE :
+  Dont forget to create both the files in same directory.
 */
