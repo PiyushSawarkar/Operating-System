@@ -95,8 +95,7 @@ a =(struct student *) shmat(shmid, 0, 0);
 strcpy(a->name,"Piyush");
 strcpy(a->class,"SE");
 a->id=1;
-printf("\t\t\t Child reads: %d %s %s\n",a-
->id,a->name,a->class);
+printf("\t\t\t Child reads: %d %s %s\n",a->id,a->name,a->class);
 wait(&status);
 /* each process should "detach" itself from the
  shared memory after it is used */
